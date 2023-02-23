@@ -13,4 +13,4 @@ vcell = "0.1.2"
 
 [features]
 rt = ["cortex-m-rt/device"]
-critical-section = ["dep:critical-section"]
+critical-section = ["dep:critical-section", "cortex-m/critical-section-single-core"]
